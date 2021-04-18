@@ -658,7 +658,7 @@ The image files used are created by yours truly.
 	"fill": "#000000",
 	"opacity": 0
 	});
-	var chapterHeader = paper.text(pWidth/2, pHeight/2, "Epilogue: Lemons, Water, and Iced Lemon Tea.").attr({"font-size": 25, "fill": "#000000", "opacity": 0}).animate({"y": pHeight/10, "opacity": 1},7000);
+	var chapterHeader = paper.text(pWidth/2, pHeight/2, "Epilogue: Lemons, Water, and Lemon Tea.").attr({"font-size": 25, "fill": "#000000", "opacity": 0}).animate({"y": pHeight/10, "opacity": 1},7000);
 	var evaluateTime = Math.floor(bubbleTotalTime);
 	if (bubbleTotalTime < 120){
 		    finalText.attr({"text": `You have witnessed the birth of a patent's core.\n \nYou took a total of about ${evaluateTime} seconds! I give that an "A+"!`});
