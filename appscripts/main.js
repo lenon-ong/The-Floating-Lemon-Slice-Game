@@ -24,7 +24,7 @@ var game04State = true;
 // Just create a nice black background
 var bgRect = paper.rect(0,0,pWidth, pHeight).attr({"fill": "black"});
 var commentary = document.getElementById("commentary");
-commentary.innerHTML = `<hr>Here, you will experience Act 0, the hard mode of Act V of Lemons & Patents.<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
+commentary.innerHTML = `<hr>Here, you will experience Act 0, the hard mode of Act V of Lemons & Patents.<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths were extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
 // 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 = 𝑠𝑞𝑟𝑡(𝑥2 − 𝑥1)^2 + (𝑦2 − 𝑦1)^2)
 
 let distance = function(p1, p2){
@@ -211,7 +211,7 @@ overlay.node.addEventListener("click", function(ev){
 				//hitGlobeText.animate({"opacity":0}, 3000, function(ev){this.remove()});
 				var chapterHeader = paper.text(pWidth/2, pHeight/2, "Act 0: The Floating Lemon Slice").attr({"font-size": 20, "fill": "#000000", "opacity": 0}).animate({"y": pHeight/10, "opacity": 1},7000, function(ev){this.animate({"opacity":0},2000, function(ev){this.remove()})});
 				//commentary.innerHTML = `[${new Date().toLocaleTimeString()}] <b>The Talking Lemon</b>: This is the endgame. We are now in the <i>internal dimension</i> of a patent, and this is the manifestation of the patent's core. <i>Fancy.</i> You can learn more about the principles of "inventive step" and "industrial application" here. <br><br><br> Y'know, this is inspired by the internal dimension where Naruto talks to the Nine Tailed Fox:<br>Source:<a href='https://www.youtube.com/watch?v=vWwVkkzruFM 'target= '_blank'><span class='underline'>YouTube - "Naruto Meets Kyuubi First Time"</span></a>
-					    		//<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
+					    		//<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths were extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
 				hitAudio[4].pause();
         		hitAudio[4].currentTime = 0;
         		hitAudio[4].play();
@@ -290,7 +290,7 @@ let startGame04 = function(){
 		theEgg.node.removeEventListener("click", myFunction);
 		theEgg.node.style.cursor="pointer";
 		commentary.innerHTML = `[${new Date().toLocaleTimeString()}] <b>The Talking Lemon</b>: That flash of darkness... and we are now within a body of water. Are those impurities? Ahhh! Clear away the black orbs with the floating slice of lemon!<b> The slice of lemon can only be controlled vertically upwards</b>. You might be able to move faster by rebounding from the bottom, or the top. <br><br>Tip: Try using the ↑ arrow button on your keyboard as an alternative to the mouse click.
-			    		<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
+			    		<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths were extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
 		hitAudio[3].pause();
         hitAudio[3].currentTime = 0;
         hitAudio[3].play();
@@ -643,7 +643,7 @@ let oneLastThing = function(){
        type="button" onClick="window.location.href=window.location.href"
        value="Play Again"> 
 
-<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). 
+<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths were extracted from works that are in the public domain (sources: freesound.org and freesvg.org). 
 The image files used are created by yours truly.
 <br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
     hitAudio[3].pause();
