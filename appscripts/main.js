@@ -1,7 +1,5 @@
 // main.js
 
-console.log("Yo, I am alive!");
-
 
 // Grab the div where we will put our Raphael paper
 var centerDiv = document.getElementById("main-container");
