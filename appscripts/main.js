@@ -24,7 +24,7 @@ var game04State = true;
 // Just create a nice black background
 var bgRect = paper.rect(0,0,pWidth, pHeight).attr({"fill": "black"});
 var commentary = document.getElementById("commentary");
-commentary.innerHTML = `Here, you will experience Act 0, the hard mode of Act V of Lemons & Patents.<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
+commentary.innerHTML = `<hr>Here, you will experience Act 0, the hard mode of Act V of Lemons & Patents.<hr>This webpage is powered by HTML5, CSS, and purely by the Javascript library, Raphaël.<br><br>All audio and SVG line paths are extracted from works that are in the public domain (sources: freesound.org and freesvg.org). The image files used are created by yours truly.<br><br> Copyright © 2021, <a href='https://www.linkedin.com/in/lenon-ong/' target= '_blank'><span class='underline'>Lenon Ong</span></a><br><a href='https://creativecommons.org/licenses/by/3.0/' target= '_blank'><span class='underline'>Available under the Creative Commons Attribution 3.0 Unported License.</span></a><hr>`;
 // 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 = 𝑠𝑞𝑟𝑡(𝑥2 − 𝑥1)^2 + (𝑦2 − 𝑦1)^2)
 
 let distance = function(p1, p2){
